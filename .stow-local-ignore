@@ -1,0 +1,8 @@
+# Do not stow the setup and teardown scripts
+^/setup\.sh
+^/teardown\.sh
+
+# Don't be an idiot, Stow
+\.git
+\.gitignore
+README\.md
