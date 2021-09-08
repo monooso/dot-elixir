@@ -5,8 +5,7 @@ teardown() {
   asdf plugin remove elixir
 
   # Erlang
-  asdf plugin remove erlang
-  sudo port uninstall --follow-dependencies autoconf openssl wxwidgets-3.2
+  sudo port uninstall --follow-dependencies erlang
 }
 
 # Don't run teardown unless asdf is installed

@@ -1,7 +1,9 @@
 # Install the asdf Erlang and Elixir plugins
 setup() {
   # Erlang
-  sudo port install autoconf openssl wxwidgets-3.2
+  # Installing Erlang via asdf is a thankless task. Stick with a pre-compiled
+  # binary for now
+  sudo port install erlang
   asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
 
   # Elixir
